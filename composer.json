@@ -1,0 +1,12 @@
+{
+  "autoload": {
+    "psr-4": {
+      "Jon\\": "src/"
+    }
+  },
+  "require": {
+    "league/plates": "3.*",
+    "symfony/routing": ">=4.1",
+    "doctrine/annotations": "*"
+  }
+}
