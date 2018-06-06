@@ -7,6 +7,6 @@
   "require": {
     "league/plates": "3.*",
     "symfony/routing": ">=4.1",
-    "doctrine/annotations": "*"
+    "zendframework/zend-servicemanager": ">=3.3.2"
   }
 }

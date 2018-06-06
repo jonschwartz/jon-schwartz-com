@@ -1,16 +1,18 @@
 <?php
 namespace Jon\Controller;
 
-use Symfony\Component\Routing\Annotation\Route;
+use League\Plates\Engine;
 
-class indexController
+class indexController extends Controller
 {
-    /**
-     * @Route("/", name="indexAction")
-     */
     public function indexAction()
     {
-        echo 'hello world';
+        /** @var Engine $plate */
+        $plate = $this->sm->get('League\Plates\Engine');
+
+        echo $plate->render('index/index/index', [
+            'title' => 'Welcome to Jon-Schwartz.com',
+        ]);
     }
 
 }
