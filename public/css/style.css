@@ -1,7 +1,93 @@
 footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
     text-align: center;
+    color: #8d7464;
 }
 
 body {
-    background-color: blueviolet;
+    background-color: #151c1a;
+}
+
+.social-share {
+    background-image: url('/images/social-share-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 890px;
+    text-align: center;
+    color: #151c1a;
+}
+
+.social-share > h1 {
+    padding-top: 20px;
+    padding-bottom: 50px;
+    letter-spacing: 15px;
+    font-size: 70px;
+}
+
+.social-share > a {
+    color: #2c1b12;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 30px;
+    letter-spacing: 10px;
+}
+
+.social-share > a:hover {
+    color: #151c1a;
+    text-decoration: underline;
+}
+
+.intro-blurb {
+    background-color: #8d7464;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding: 30px;
+}
+
+.intro-blurb * a {
+    color: #2c1b12;
+}
+
+.mini-res {
+    text-indent: 5%;
+}
+
+.res-item {
+    text-indent: 10%;
+}
+
+.res-sub-item {
+    text-indent: 15%;
+}
+
+.jumbotron {
+    width : 100%;
+    padding-right:20px;
+    padding-left: 20px;
+    border-radius: 0px;
+    border: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    background-image: url('/images/jumbotron-bg-3.jpg');
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    min-height: 670px;
+}
+
+.jumbotron > h1 {
+    font-size: 100px;
+    color: #8d7464;
+}
+
+.blurb-underline {
+    width : 300px;
+    color: #8d7464;
+}
+
+.container-fluid {
+    width: 100%;
+    padding: 0px;
 }
