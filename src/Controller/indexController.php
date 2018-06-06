@@ -3,7 +3,7 @@ namespace Jon\Controller;
 
 use League\Plates\Engine;
 
-class indexController extends Controller
+class IndexController extends Controller
 {
     public function indexAction()
     {
