@@ -29,5 +29,6 @@ $this->layout('layout/layout', ['title' => $title]);
     <a href="https://www.twitter.com/jonschwartz" title="Twitter" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a>
     <a href="https://www.github.com/jonschwartz" title="Github" target="_blank"><i class="fab fa-github" aria-hidden="true"></i></a>
     <a href="https://www.linkedin.com/in/jonathanhenryschwartz/" title="LinkedIn" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+    <a href="https://stackoverflow.com/users/513592/jon-schwartz" title="Stack Overflow" target="_blank"><i class="fab fa-stack-overflow" aria-hidden="true"></i></a>
     <a href="https://docs.google.com/document/d/1FM21_MMWYnhL8kphwJKaiaU-vU6eEdXdiE-Bj-Q2OeQ/edit?usp=sharing" class="resume-link" target="_blank" title="My Resume"><i class="fab fa-google-drive"></i></a>
 </div>
