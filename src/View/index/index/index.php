@@ -7,8 +7,10 @@ $this->layout('layout/layout', ['title' => $title]);
 </div>
 <?php $this->end(); ?>
 <div class="intro-blurb">
-    <p>Hi Everyone!  I'm Jon.  I'm a web developer living outside of boston.  I like building tools to help people work better faster easier.  I usually code in PHP but I also like Python and have an extensive MySQL background.</p>
+    <p>I'm a web developer living outside of boston.  I like building tools to help people work better faster easier.  I usually code in PHP but I also like Python and have an extensive MySQL background.</p>
     <div class="mini-res">
+        <h3>Tech I specialize in</h3>
+        <p class="res-item">PHP, MySQL, AWS, Data Warehousing, ETL Processes, JavaScript, jQuery, Zend Framework, Zend Server, HTML, CSS, Python</p>
         <h3>What I've done</h3>
         <p class="res-item">Web Developer - Mediaspike 2012-2018</p>
         <p class="res-item">Web and Marketing Manager - HMC Electronics 2009-2012</p>
