@@ -3,24 +3,24 @@ $this->layout('layout/layout', ['title' => $title]);
 ?>
 <?php $this->start('jumbotron'); ?>
 <div class="jumbotron">
-    <h1>Hi!  I'm Jon.<hr class="blurb-underline"/></h1>
+    <h1>Hi!  I'm Jon.</h1>
 </div>
 <?php $this->end(); ?>
 <div class="intro-blurb">
-    <p>I'm a web developer living outside of boston.  I like building tools to help people work better faster easier.  I usually code in PHP but I also like Python and have an extensive MySQL background.</p>
+    <p class="blurb">I'm a web developer living outside of Boston.  I like building tools to help people work better...faster...easier.  I usually code in PHP but I also like Python and have an extensive MySQL background.</p>
     <div class="mini-res">
         <h3>Tech I specialize in</h3>
         <p class="res-item">PHP, MySQL, AWS, Data Warehousing, ETL Processes, JavaScript, jQuery, Zend Framework, Zend Server, HTML, CSS, Python</p>
         <h3>What I've done</h3>
-        <p class="res-item">Web Developer - Mediaspike 2012-2018</p>
-        <p class="res-item">Web and Marketing Manager - HMC Electronics 2009-2012</p>
-        <p class="res-item">Software Engineer - MediRegs 2006-2009</p>
+        <p class="res-item"><img src="/images/mspk-logo.png" class="logo-img"/>Web Developer - Mediaspike 2012-2018</p>
+        <p class="res-item"><img src="/images/hmc-logo.png" class="logo-img"/>Web and Marketing Manager - HMC Electronics 2009-2012</p>
+        <p class="res-item"><img src="/images/mediregs-logo.png" class="logo-img"/>Software Engineer - MediRegs 2006-2009</p>
         <h3>Certifications</h3>
-        <p class="res-item"><a href="http://www.zend.com/en/yellow-pages/ZEND026277">Zend Certified PHP Engineer - achieved 2013</a></p>
+        <p class="res-item"><a href="http://www.zend.com/en/yellow-pages/ZEND026277"><img src="/images/zce.png" class="logo-img"/>Zend Certified PHP Engineer - achieved 2014</a></p>
         <h3>Talks</h3>
-        <p class="res-item">Turn your house into a giant robot - given at NortheastPHP 2017</p>
+        <p class="res-item"><img src="/images/nephp.png" class="logo-img"/>Turn your house into a giant robot - given at NortheastPHP 2017</p>
         <h3>School</h3>
-        <p class="res-item">Bridgewater State College (2001-2006)</p>
+        <p class="res-item"><img src="/images/bsc.png" class="logo-img"/>Bridgewater State College (2001-2006)</p>
         <p class="res-sub-item">BS in Computer Science</p>
         <p class="res-sub-item">BS in Psychology</p>
     </div>

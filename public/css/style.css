@@ -11,6 +11,7 @@ body {
 
 .social-share {
     background-image: url('/images/social-share-bg.png');
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 890px;
@@ -49,8 +50,21 @@ body {
     color: #2c1b12;
 }
 
+.blurb {
+    font-size: 20px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid;
+}
+
 .mini-res {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
     text-indent: 5%;
+}
+
+.logo-img {
+    padding-right: 10px;
 }
 
 .res-item {
@@ -58,20 +72,24 @@ body {
 }
 
 .res-sub-item {
-    text-indent: 15%;
+    text-indent: 20%;
 }
 
 .jumbotron {
     width : 100%;
     padding-right:20px;
     padding-left: 20px;
+    padding-top: 0px;
     border-radius: 0px;
     border: 0px;
     margin-left: 0px;
     margin-right: 0px;
     margin-bottom: 0px;
     text-align: center;
+    background-attachment: fixed;
+    background-position: center;
     background-image: url('/images/jumbotron-bg-3.jpg');
+    background-color: #8d7464;
     background-size: 100% auto;
     background-repeat: no-repeat;
     min-height: 670px;
@@ -80,6 +98,7 @@ body {
 .jumbotron > h1 {
     font-size: 100px;
     color: #8d7464;
+    padding-top: 5px;
 }
 
 .blurb-underline {
